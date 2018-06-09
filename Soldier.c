@@ -44,7 +44,6 @@ PSoldier Soldier_Duplicate(PSoldier Soldier) {
 		return NULL;
 	}
 
-	//Soldier_Delete(Soldier);
 	return newSoldier;
 }
 

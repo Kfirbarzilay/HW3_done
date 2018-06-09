@@ -174,11 +174,16 @@ Result Squad_Insert_Sold_APC(PSquad squad, char Sol_ID[MAX_ID_LENGTH], char APC_
 	Result insert;
 	PSoldier sol_copy = Soldier_Create(Soldier_Get_ID((PSoldier)sol), Soldier_Get_Pos((PSoldier) sol));
 	insert = APC_Insert_Soldier((P_APC)APC, sol_copy);
-	if (insert == FAILURE) return FAILURE; //if APC is full return FAILURE.
-
+	if (insert == FAILURE) {
+		Soldier_Delete(sol_copy);
+		return FAILURE; //if APC is full return FAILURE.
+	}
 	//Deleting the soldier from the soldiers list.
 	Result remove_sol;
 	remove_sol = List_Remove_Elem(squad->Soldiers, (PKey)Sol_ID);
+
+	//freeing allocated memory
+
 	return remove_sol;
 }
 

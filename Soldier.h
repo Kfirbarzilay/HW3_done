@@ -1,6 +1,9 @@
 #ifndef _Soldier_h
 #define _Soldier_h
 
+#define _CRTDBG_MAP_ALLOC  
+#include <stdlib.h>  
+#include <crtdbg.h>  
 
 /*includes & defines*/
 #include "defs.h"
