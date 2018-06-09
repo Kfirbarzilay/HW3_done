@@ -1,0 +1,221 @@
+Battlefield Created!
+Error: War Zone Already Exists
+Error: No Such War Zone
+Error: Squad Already Exists
+Error: Squad Already Exists
+Error: Squad Already Exists
+Error: Squad Already Exists
+Error: Squad Already Exists
+Error: Squad Already Exists
+Error: Illegal Command
+Error: Illegal Command
+**********All Commands Executed**********
+
+No Commands to Execute
+**********All Commands Executed**********
+
+No Commands to Execute
+**********All Commands Executed**********
+
+Error: No Such Squad
+Error: No Such Squad
+Error: Soldier Already Exists
+Error: No Such Squad
+Error: Soldier Already Exists
+Error: No Such Squad
+Battlefield:
+WarZone: W001 , Alert State: 1
+
+Squad: Sq001 , Total troops: 0
+APCs:
+Soldiers:
+
+Squad: Sq009 , Total troops: 0
+APCs:
+Soldiers:
+
+WarZone: W002 , Alert State: 1
+
+Squad: Sq004 , Total troops: 0
+APCs:
+Soldiers:
+
+Squad: Sq002 , Total troops: 2
+APCs:
+Soldiers:
+Snir , INT
+Sinb , INT
+
+WarZone: W003 , Alert State: 0
+
+Squad: Sq003 , Total troops: 0
+APCs:
+Soldiers:
+
+**********All Commands Executed**********
+
+Error: No Such Squad
+Error: No Such Soldier
+Error: No Such War Zone
+Error: No Such War Zone
+Error: No Such Squad
+Error: APC Already Exists
+Error: APC Already Exists
+Battlefield:
+WarZone: W001 , Alert State: 1
+
+Squad: Sq001 , Total troops: 1
+APCs:
+Soldiers:
+Sni3 , MED
+
+Squad: Sq009 , Total troops: 0
+APCs:
+Soldiers:
+
+WarZone: W002 , Alert State: 1
+
+Squad: Sq004 , Total troops: 0
+APCs:
+Soldiers:
+
+Squad: Sq003 , Total troops: 0
+APCs:
+Soldiers:
+
+WarZone: W003 , Alert State: 0
+
+Squad: Sq002 , Total troops: 2
+APCs:
+A001 , Occupancy: 0/6
+A002 , Occupancy: 0/6
+Soldiers:
+Snir , INT
+Sni4 , MED
+
+**********All Commands Executed**********
+
+Error: No Such Soldier
+Error: No Such APC
+Error: No Such Soldier
+Error: No Such Squad
+Error: No Such War Zone
+Battlefield:
+WarZone: W001 , Alert State: 1
+
+Squad: Sq001 , Total troops: 1
+APCs:
+Soldiers:
+Sni3 , MED
+
+Squad: Sq009 , Total troops: 0
+APCs:
+Soldiers:
+
+WarZone: W002 , Alert State: 1
+
+Squad: Sq004 , Total troops: 0
+APCs:
+Soldiers:
+
+Squad: Sq002 , Total troops: 2
+APCs:
+A001 , Occupancy: 2/6
+Seat 1: Snir , INT
+Seat 2: Sni4 , MED
+A002 , Occupancy: 0/6
+Soldiers:
+
+WarZone: W003 , Alert State: 0
+
+Squad: Sq003 , Total troops: 0
+APCs:
+Soldiers:
+
+**********All Commands Executed**********
+
+Error: No Such APC
+Error: No Such Squad
+Error: No Such APC
+Error: No Such Squad
+Error: No Such War Zone
+Error: No Such APC
+Error: No Such APC
+Error: No Such Squad
+Error: No Such Squad
+Error: No Such War Zone
+Battlefield:
+WarZone: W001 , Alert State: 1
+
+Squad: Sq001 , Total troops: 1
+APCs:
+Soldiers:
+Sni3 , MED
+
+Squad: Sq009 , Total troops: 0
+APCs:
+Soldiers:
+
+WarZone: W002 , Alert State: 1
+
+Squad: Sq004 , Total troops: 0
+APCs:
+Soldiers:
+
+Squad: Sq002 , Total troops: 2
+APCs:
+A001 , Occupancy: 1/6
+Seat 1: Snir , INT
+Soldiers:
+Sni4 , MED
+
+WarZone: W003 , Alert State: 0
+
+Squad: Sq003 , Total troops: 0
+APCs:
+Soldiers:
+
+**********All Commands Executed**********
+
+Battlefield:
+WarZone: W002 , Alert State: 1
+
+Squad: Sq004 , Total troops: 0
+APCs:
+Soldiers:
+
+Squad: Sq002 , Total troops: 2
+APCs:
+A001 , Occupancy: 1/6
+Seat 1: Snir , INT
+Soldiers:
+Sni4 , MED
+
+WarZone: W003 , Alert State: 0
+
+Squad: Sq003 , Total troops: 0
+APCs:
+Soldiers:
+
+Battlefield:
+WarZone: W002 , Alert State: 1
+
+WarZone: W003 , Alert State: 2
+
+Squad: Sq003 , Total troops: 0
+APCs:
+Soldiers:
+
+Squad: Sq004 , Total troops: 0
+APCs:
+Soldiers:
+
+Squad: Sq002 , Total troops: 2
+APCs:
+A001 , Occupancy: 1/6
+Seat 1: Snir , INT
+Soldiers:
+Sni4 , MED
+
+**********All Commands Executed**********
+
