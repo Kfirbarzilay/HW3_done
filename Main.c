@@ -851,13 +851,13 @@ int main() {
 		Curr_Command_Index = strtok(Input_Line_Copy, delimiters);	//getting the index of current command - copied string Changed!
 
 		//continue to next line if NULL;
-		if (Curr_Command_Index == NULL) continue; //TODO: check if needed FIXME
+		if (Curr_Command_Index == NULL) continue; 
 
 		if (!strcmp(Curr_Command_Index, "Exit")){ //ending the program. deleting battlefield and lists. 
 			ended = true; 
-			List_Delete(Commands_List);
+			/*List_Delete(Commands_List);
 			List_Delete(objects_ID);
-			BF_Delete(Battlefield);
+			BF_Delete(Battlefield);*/
 			return 0;
 		}
 

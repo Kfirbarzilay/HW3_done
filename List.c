@@ -278,21 +278,24 @@ Result Add_Two_Lists(PList src, PList dst)
 {
 	//check if NULL
 	if (src == NULL || dst == NULL) return FAILURE;
-	if (src->head == NULL || dst->head == NULL) return FAILURE;
+	if (src->head == NULL) return FAILURE;
 
 	if (src != dst) {
-		//connect the Head of src list to the tail of the dst list.
-		PNODE dst_tail, src_head;
-		dst_tail = dst->tail;
-		src_head = src->head;
+		//if there are no element on the list.
+		if (dst->head == NULL) {
+			dst->head = src->head;
+		}
 
-		//connect the last node of dst to the first node of src.
-		dst_tail->next = src->head;
-		src->head = NULL;      //disconnecting source head.
-
-		//point the dst tail to the last node of the src tail
+		//one or more.
+		else {
+			dst->tail->next = src->head;
+		}
+		
 		dst->tail = src->tail;
-		src->tail = NULL; //disconnecting source tail.
+
+		//empty the source list.
+		src->head = NULL;
+		src->tail = NULL;
 		return SUCCESS;
 	}
 
